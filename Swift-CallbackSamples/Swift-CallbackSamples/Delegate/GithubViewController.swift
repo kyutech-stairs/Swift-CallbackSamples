@@ -8,28 +8,15 @@
 
 import UIKit
 
-class GithubViewController: UIViewController {
+final class GithubViewController: UIViewController {
+
+    private var github: Github?
 
     override func viewDidLoad() {
+        self.view.backgroundColor = .blue
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.github = Github()
+        self.github?.delegate = self as? GithubDelegate
+        self.github?.getData()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
