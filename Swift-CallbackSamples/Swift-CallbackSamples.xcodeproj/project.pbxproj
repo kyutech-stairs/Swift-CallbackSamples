@@ -16,6 +16,8 @@
 		E61113B12163923100732808 /* Swift_CallbackSamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113B02163923100732808 /* Swift_CallbackSamplesUITests.swift */; };
 		E61113C221639BC200732808 /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113C121639BC200732808 /* Github.swift */; };
 		E61113C421639C8E00732808 /* GithubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113C321639C8E00732808 /* GithubViewController.swift */; };
+		E61113CA2163A22F00732808 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113C92163A22F00732808 /* ClosureViewController.swift */; };
+		E61113CC2163A32500732808 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113CB2163A32500732808 /* Closure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E61113B22163923100732808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E61113C121639BC200732808 /* Github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github.swift; sourceTree = "<group>"; };
 		E61113C321639C8E00732808 /* GithubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubViewController.swift; sourceTree = "<group>"; };
+		E61113C92163A22F00732808 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		E61113CB2163A32500732808 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 		E61113BF21639B5D00732808 /* Closure */ = {
 			isa = PBXGroup;
 			children = (
+				E61113CB2163A32500732808 /* Closure.swift */,
+				E61113C92163A22F00732808 /* ClosureViewController.swift */,
 			);
 			path = Closure;
 			sourceTree = "<group>";
@@ -288,8 +294,10 @@
 			files = (
 				E61113C221639BC200732808 /* Github.swift in Sources */,
 				E61113932163923000732808 /* ViewController.swift in Sources */,
+				E61113CA2163A22F00732808 /* ClosureViewController.swift in Sources */,
 				E61113912163923000732808 /* AppDelegate.swift in Sources */,
 				E61113C421639C8E00732808 /* GithubViewController.swift in Sources */,
+				E61113CC2163A32500732808 /* Closure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
