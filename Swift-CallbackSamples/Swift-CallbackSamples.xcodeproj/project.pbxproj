@@ -14,6 +14,10 @@
 		E611139B2163923100732808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61113992163923100732808 /* LaunchScreen.storyboard */; };
 		E61113A62163923100732808 /* Swift_CallbackSamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113A52163923100732808 /* Swift_CallbackSamplesTests.swift */; };
 		E61113B12163923100732808 /* Swift_CallbackSamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113B02163923100732808 /* Swift_CallbackSamplesUITests.swift */; };
+		E61113C221639BC200732808 /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113C121639BC200732808 /* Github.swift */; };
+		E61113C421639C8E00732808 /* GithubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113C321639C8E00732808 /* GithubViewController.swift */; };
+		E61113CA2163A22F00732808 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113C92163A22F00732808 /* ClosureViewController.swift */; };
+		E61113CC2163A32500732808 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113CB2163A32500732808 /* Closure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		E61113AC2163923100732808 /* Swift-CallbackSamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-CallbackSamplesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61113B02163923100732808 /* Swift_CallbackSamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_CallbackSamplesUITests.swift; sourceTree = "<group>"; };
 		E61113B22163923100732808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61113C121639BC200732808 /* Github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github.swift; sourceTree = "<group>"; };
+		E61113C321639C8E00732808 /* GithubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubViewController.swift; sourceTree = "<group>"; };
+		E61113C92163A22F00732808 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		E61113CB2163A32500732808 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,9 @@
 		E611138F2163923000732808 /* Swift-CallbackSamples */ = {
 			isa = PBXGroup;
 			children = (
+				E61113C021639B6300732808 /* Delegate */,
+				E61113BF21639B5D00732808 /* Closure */,
+				E61113BE21639B4C00732808 /* NSNotification */,
 				E61113902163923000732808 /* AppDelegate.swift */,
 				E61113922163923000732808 /* ViewController.swift */,
 				E61113942163923000732808 /* Main.storyboard */,
@@ -123,6 +134,31 @@
 				E61113B22163923100732808 /* Info.plist */,
 			);
 			path = "Swift-CallbackSamplesUITests";
+			sourceTree = "<group>";
+		};
+		E61113BE21639B4C00732808 /* NSNotification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSNotification;
+			sourceTree = "<group>";
+		};
+		E61113BF21639B5D00732808 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				E61113CB2163A32500732808 /* Closure.swift */,
+				E61113C92163A22F00732808 /* ClosureViewController.swift */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
+		E61113C021639B6300732808 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E61113C121639BC200732808 /* Github.swift */,
+				E61113C321639C8E00732808 /* GithubViewController.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61113C221639BC200732808 /* Github.swift in Sources */,
 				E61113932163923000732808 /* ViewController.swift in Sources */,
+				E61113CA2163A22F00732808 /* ClosureViewController.swift in Sources */,
 				E61113912163923000732808 /* AppDelegate.swift in Sources */,
+				E61113C421639C8E00732808 /* GithubViewController.swift in Sources */,
+				E61113CC2163A32500732808 /* Closure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
