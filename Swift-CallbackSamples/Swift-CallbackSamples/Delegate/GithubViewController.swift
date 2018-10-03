@@ -20,3 +20,13 @@ final class GithubViewController: UIViewController {
         self.github?.getData()
     }
 }
+
+extension GithubViewController: GithubDelegate {
+    func complete(data: String) {
+        print(data)
+    }
+
+    func next() {
+        Storyboard.delegate.present(from: self)
+    }
+}

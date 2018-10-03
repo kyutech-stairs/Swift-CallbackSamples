@@ -10,10 +10,17 @@ import UIKit
 
 class ClosureViewController: UIViewController {
 
+    private var data: [String] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
         Closure.getData { (result) in
+            self.data.append(result)
+//            self.tableView.reloadData() Viewの更新
             print(result)
+        }
+        Closure.getData { (data) in
+            print(data)
         }
     }
 }
