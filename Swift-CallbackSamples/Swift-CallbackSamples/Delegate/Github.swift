@@ -17,6 +17,10 @@ final class Github {
     var delegate: GithubDelegate?
 
     func getData() {
-        self.delegate?.complete(data: "これがコールバック！")
+        //ここで通信を行い、
+        //通信が終わったら、
+        sleep(1)
+        let data = "これがコールバック！"
+        self.delegate?.complete(data: data)
     }
 }

@@ -11,6 +11,7 @@ import Foundation
 final class Closure {
 
     static func getData(completion: (String) -> Void ) {
+        sleep(2)
         completion("これがクロージャだ！")
     }
 }

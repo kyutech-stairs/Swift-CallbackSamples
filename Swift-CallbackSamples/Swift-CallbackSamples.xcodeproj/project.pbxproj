@@ -18,6 +18,8 @@
 		E61113C421639C8E00732808 /* GithubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113C321639C8E00732808 /* GithubViewController.swift */; };
 		E61113CA2163A22F00732808 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113C92163A22F00732808 /* ClosureViewController.swift */; };
 		E61113CC2163A32500732808 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113CB2163A32500732808 /* Closure.swift */; };
+		E61113D02163A99100732808 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61113CF2163A99100732808 /* NotificationViewController.swift */; };
+		E64A0F162164CB77007F709F /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64A0F152164CB77007F709F /* Storyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		E61113C321639C8E00732808 /* GithubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubViewController.swift; sourceTree = "<group>"; };
 		E61113C92163A22F00732808 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
 		E61113CB2163A32500732808 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		E61113CF2163A99100732808 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		E64A0F152164CB77007F709F /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 				E61113972163923100732808 /* Assets.xcassets */,
 				E61113992163923100732808 /* LaunchScreen.storyboard */,
 				E611139C2163923100732808 /* Info.plist */,
+				E64A0F152164CB77007F709F /* Storyboard.swift */,
 			);
 			path = "Swift-CallbackSamples";
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 		E61113BE21639B4C00732808 /* NSNotification */ = {
 			isa = PBXGroup;
 			children = (
+				E61113CF2163A99100732808 /* NotificationViewController.swift */,
 			);
 			path = NSNotification;
 			sourceTree = "<group>";
@@ -295,6 +301,8 @@
 				E61113C221639BC200732808 /* Github.swift in Sources */,
 				E61113932163923000732808 /* ViewController.swift in Sources */,
 				E61113CA2163A22F00732808 /* ClosureViewController.swift in Sources */,
+				E61113D02163A99100732808 /* NotificationViewController.swift in Sources */,
+				E64A0F162164CB77007F709F /* Storyboard.swift in Sources */,
 				E61113912163923000732808 /* AppDelegate.swift in Sources */,
 				E61113C421639C8E00732808 /* GithubViewController.swift in Sources */,
 				E61113CC2163A32500732808 /* Closure.swift in Sources */,
